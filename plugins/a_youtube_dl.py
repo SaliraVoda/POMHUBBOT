@@ -30,7 +30,7 @@ async def handle_youtube_video(client: Client, message: Message):
 @Client.on_callback_query(filters.regex('^ytdl_music'))
 async def song(client: Client, update: CallbackQuery):
     query = update.message.reply_to_message.text
-    m = await update.message.edit(f"**ѕєαrchíng чσur ѕσng...!\n `{query}`**")
+    m = await update.message.edit(f"**ѕєαrchíng...!\n `{query}`**")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -50,7 +50,7 @@ async def song(client: Client, update: CallbackQuery):
     except Exception as e:
         return await m.edit("**Fᴏᴜɴᴅ Nᴏᴛʜɪɴɢ Pʟᴇᴀsᴇ Cᴏʀʀᴇᴄᴛ Tʜᴇ Sᴘᴇʟʟɪɴɢ Oʀ Cʜᴇᴄᴋ Tʜᴇ LIɴᴋ**")
 
-    await m.edit("**dσwnlσαdíng чσur ѕσng...!**")
+    await m.edit("**DOWNLOADING...!**")
     try:
         with YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
