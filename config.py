@@ -66,16 +66,12 @@ Click The Buttons Below To Search
     HELP_TXT = """
 Tʜɪs Bᴏᴛ Wɪʟʟ Hᴇʟᴘ Yᴏᴜ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Fᴏʟʟᴏᴡɪɴɢ Fɪʟᴇ ᴛʜʀᴏᴜɢʜ ʟɪɴᴋs:
 
-⊚ YouTube - Just Paste Yt video Link
-⊚ Mega - Just Paste video Link
-⊚ PornHub - Just Paste video Link
-⊚ /song ᴀɴʏ ᴍᴘ3 ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ.
-⊚ /video ᴀɴʏ ᴠɪᴅᴇᴏ ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ.
-⊚ /ig ɪɢ ᴘᴏꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ.
-⊚ /reel ɪɢ ʀᴇᴇʟ ᴅᴏᴡɴʟᴏᴀᴅ.
-⊚ /porn Pʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴀ ᴛɪᴛʟᴇ ᴛᴏ sᴇᴀʀᴄʜ.
-⊚ /pornn Pʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴀ ᴛɪᴛʟᴇ ᴛᴏ sᴇᴀʀᴄʜ.
-⊚ /pornplay Pʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴀ ᴛɪᴛʟᴇ ᴛᴏ sᴇᴀʀᴄʜ.
+⊚ YouTube - Just Paste Yt video Link.
+⊚ Mega - Just Paste Mega video Link.
+⊚ PornHub - Just Paste Phub video Link.
+⊚ /song - Any mp3 song download.
+⊚ /video - Any video song download.
+⊚ /porn - Pʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴀ ᴛɪᴛʟᴇ ᴛᴏ sᴇᴀʀᴄʜ.
 
 ❗ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/FORBIDDEN_XD>•UPDATE CHANNEL</a>
 """
