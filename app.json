@@ -3,7 +3,7 @@
     "description": "Telegram Bot to download Porn videos & mega files through links",
     "logo": "https://telegra.ph/file/7b2f260b267b8487f39f4.mp4",
     "keywords": ["Porn-Mega-Downloader-TG", "Mongo DB"],    
-    "repository": "https://github.com/SaliraVoda/Pompom",
+    "repository": "https://github.com/SaliraVoda/Pomhubbot",
     "success_url": "",
     "stack": "container",
     "env": {
@@ -48,7 +48,7 @@
             "required": true 
         },
         "START_PIC": {
-            "description": "Your Bot start cmd Pic from @MT_TelegraPH_Bot",
+            "description": "Your Bot start cmd Pic from @VTelegraPHBot",
             "value": "",
             "required": false
         }
