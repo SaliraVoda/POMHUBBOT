@@ -71,10 +71,12 @@ def get_video_info(title):
 
 
 
+import asyncio
+
 @Client.on_message(filters.private & filters.command("porn"))
 async def get_random_video_info(client, message):
     # Send "Processing..." message
-    processing_message = await message.reply("Processing...")
+    processing_message = await message.reply("**Processing...**")
     
     if len(message.command) == 1:
         await message.reply("Please provide a title to search.")
@@ -88,7 +90,12 @@ async def get_random_video_info(client, message):
         video = await get_video_stream(video_link)
         await message.reply_video(video, caption=f"{title}", reply_markup=keyboard)
         # Delete the "Processing..." message
-        await client.delete_messages(chat_id=message.chat.id, message_ids=processing_message.message_id)
+        try:
+            # Add a delay before deletion
+            await asyncio.sleep(2)
+            await client.delete_messages(chat_id=message.chat.id, message_ids=processing_message.message_id)
+        except Exception as e:
+            print(f"Error while deleting message: {e}")
              
     else:
         await message.reply(f"No video link found for '{title}'.")
