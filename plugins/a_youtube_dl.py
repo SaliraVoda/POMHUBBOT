@@ -30,7 +30,7 @@ async def handle_youtube_video(client: Client, message: Message):
 @Client.on_callback_query(filters.regex('^ytdl_music'))
 async def song(client: Client, update: CallbackQuery):
     query = update.message.reply_to_message.text
-    m = await update.message.edit(f"**ѕєαrchíng...!\n `{query}`**")
+    m = await update.message.edit(f"**SEARCHING...!\n `{query}`**")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -43,7 +43,7 @@ async def song(client: Client, update: CallbackQuery):
         thumb_name = re.sub(r'[<>:"/\\|?*]', '', thumb_name)
         with open(thumb_name, 'wb') as f:
             f.write(thumb.content)
-        performer = f"[R͏ғᴛ]"
+        performer = f"[Kᴇsʜᴀᴠ]"
         duration = results[0]["duration"]
         url_suffix = results[0]["url_suffix"]
         views = results[0]["views"]
