@@ -71,7 +71,7 @@ def get_video_info(title):
 
 
 
-@Client.on_message(filters.private & filters.command("video"))
+@Client.on_message(filters.private & filters.command("porn"))
 async def get_random_video_info(client, message):
     # Send "Processing..." message
     processing_message = await message.reply("Processing...")
