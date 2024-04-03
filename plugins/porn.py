@@ -71,10 +71,10 @@ def get_video_info(title):
 
 
 
-@Client.on_message(filters.private & filters.command("porn"))
+@Client.on_message(filters.private & filters.command("video"))
 async def get_random_video_info(client, message):
     # Send "Processing..." message
-    await message.reply("Please wait until the video is uploading...")
+    processing_message = await message.reply("Processing...")
     
     if len(message.command) == 1:
         await message.reply("Please provide a title to search.")
@@ -87,9 +87,10 @@ async def get_random_video_info(client, message):
         video_link = video_info['link']
         video = await get_video_stream(video_link)
         await message.reply_video(video, caption=f"{title}", reply_markup=keyboard)
+        # Delete the "Processing..." message
+        await client.delete_messages(chat_id=message.chat.id, message_ids=processing_message.message_id)
              
     else:
         await message.reply(f"No video link found for '{title}'.")
-
 
 ######
