@@ -5,7 +5,7 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
-    repo: https://github.com/Shivasengar12/Pompom
+    repo: https://github.com/Saliravoda/Pomhubbot
     branch: main
     autoDeploy: false
     envVars:
