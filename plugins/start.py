@@ -21,9 +21,9 @@ async def start(client: Client, message: Message):
     user = message.from_user
     button = InlineKeyboardMarkup([[
         InlineKeyboardButton(
-            '•Uᴘᴅᴀᴛᴇs•', url='https://t.me/HEROKUBIN_01'),
+            '•Uᴘᴅᴀᴛᴇs•', url='https://t.me/FORBIDDEN_XD'),
         InlineKeyboardButton(
-            '•Sᴜᴘᴘᴏʀᴛ•', url='https://t.me/ll_THE_BAD_BOT_ll')
+            '•Sᴜᴘᴘᴏʀᴛ•', url='https://t.me/FORBIDDEN_XD')
     ], [
         InlineKeyboardButton('•Aʙᴏᴜᴛ•', callback_data='about'),
         InlineKeyboardButton('•Hᴇʟᴘ•', callback_data='help')
@@ -49,9 +49,9 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton(
-                    '• Uᴩᴅᴀᴛᴇꜱ •', url='https://t.me/HEROKUBIN_01'),
+                    '• Uᴩᴅᴀᴛᴇꜱ •', url='https://t.me/FORBIDDEN_XD'),
                 InlineKeyboardButton(
-                    '• Sᴜᴩᴩᴏʀᴛ •', url='https://t.me/ll_THE_BAD_BOT_ll')
+                    '• Sᴜᴩᴩᴏʀᴛ •', url='https://t.me/FORBIDDEN_XD')
             ], [
                 InlineKeyboardButton('• Aʙᴏᴜᴛ •', callback_data='about'),
                 InlineKeyboardButton('• Hᴇʟᴩ •', callback_data='help')
