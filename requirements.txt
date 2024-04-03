@@ -19,5 +19,5 @@ filetype
 tgcrypto
 pyromod
 hurry.filesize
-git+https://github.com/badmunda98/mega.py
+git+https://github.com/saliravoda/mega.py
 wget
