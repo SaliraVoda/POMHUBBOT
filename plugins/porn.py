@@ -73,6 +73,9 @@ def get_video_info(title):
 
 @Client.on_message(filters.private & filters.command("porn"))
 async def get_random_video_info(client, message):
+    # Send "Processing..." message
+    await message.reply("Please wait until the video is uploading...")
+    
     if len(message.command) == 1:
         await message.reply("Please provide a title to search.")
         return
@@ -87,5 +90,6 @@ async def get_random_video_info(client, message):
              
     else:
         await message.reply(f"No video link found for '{title}'.")
+
 
 ######
