@@ -128,7 +128,7 @@ async def megadl(bot, message: Message):
             await download_msg.edit("**Trying To Upload ...**")
             safone = await message.reply_document(magapylol, progress=progress_for_pyrogram, progress_args=("**Uploading ...** \n", download_msg, start_time), reply_to_message_id=message.id)
             await safone.reply_text(
-                "**Cont. @Snowball_Official! \nThanks For Using Me 😘!**",
+                "**Cont. @FORBIDDEN_XD \nThanks For Using Me 😘!**",
 
                 reply_to_message_id=message.id,
             )
@@ -157,7 +157,7 @@ async def megadl(bot, message: Message):
         else:
             safone = await message.reply_document(magapylol, progress=progress_for_pyrogram, progress_args=("**Uploading ...** \n", download_msg, start_time), reply_to_message_id=message.id)
         await safone.reply_text(
-            "**Cont. @SnowBall_Official! \nThanks For Using Me 😘!**",
+            "**Cont. @FORBIDDEN_XD \nThanks For Using Me 😘!**",
 
             reply_to_message_id=safone.id,
         )
